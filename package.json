@@ -1,0 +1,33 @@
+{
+  "name": "simple-udp",
+  "version": "1.0.0",
+  "description": "UDP helper module for Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "set DEBUG=simple-udp & nodemon test/server.js",
+    "client": "set DEBUG=simple-udp & node test/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yannissss/simple-udp.git"
+  },
+  "keywords": [
+    "udp",
+    "client",
+    "server",
+    "helper"
+  ],
+  "author": "Yannissss",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Yannissss/simple-udp/issues"
+  },
+  "homepage": "https://github.com/Yannissss/simple-udp#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "dependencies": {
+    "debug": "^4.2.0"
+  }
+}
